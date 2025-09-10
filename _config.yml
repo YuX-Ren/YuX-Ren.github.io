@@ -1,7 +1,5 @@
 title: YuX Ren
 email: your.email@example.com
-description: >-
-  个人主页：研究、项目、博客与简历。
 url: https://yux-ren.github.io
 baseurl: ""
 
@@ -13,6 +11,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Language & timezone
 lang: zh-CN
@@ -20,7 +19,6 @@ timezone: Asia/Shanghai
 
 # Navigation: which pages appear in the header
 header_pages:
-  - pages/about.md
   - pages/blog.md
   - pages/projects.md
   - pages/publications.md
@@ -35,6 +33,10 @@ minima:
   social_links:
     github: YuX-Ren
     linkedin: your-linkedin-username
+  skin: auto
+
+include:
+  - _includes/head-custom.html
 
 # Collections (extend later if needed)
 collections:

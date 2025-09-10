@@ -1,0 +1,154 @@
+---
+---
+@import "minima";
+
+/* Typography & base */
+html {
+  font-size: 17px;
+}
+
+body {
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+p { margin: 0.6rem 0 1rem; }
+
+/* Layout width */
+.page-content .wrapper,
+.site-header .wrapper,
+.site-footer .wrapper {
+  max-width: 860px;
+}
+
+/* Links */
+a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover { opacity: 0.85; }
+
+/* Tables (news) */
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 0.6rem 0.4rem; }
+tbody tr:nth-child(odd) { background: rgba(0,0,0,0.03); }
+
+/* Lists as cards */
+.post-list > li,
+.page-content ul > li {
+  margin: 0.4rem 0;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.post-list > li:hover,
+.page-content ul > li:hover { background: rgba(0,0,0,0.04); }
+
+/* Code blocks */
+pre, code {
+  border-radius: 6px;
+}
+
+/* Header minimalism */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: none;
+  background: rgba(255,255,255,0.85);
+  -webkit-backdrop-filter: saturate(150%) blur(6px);
+  backdrop-filter: saturate(150%) blur(6px);
+  border-top: 0 !important;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.site-title { font-weight: 700; letter-spacing: 0.2px; margin: 0; }
+
+/* Nav links */
+.site-nav .page-link {
+  padding: 0.35rem 0.6rem;
+  margin-left: 0.2rem;
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  background: rgba(0,0,0,0.06);
+  text-decoration: none;
+}
+
+.site-nav .page-link[aria-current="page"],
+.site-nav .page-link.active {
+  background: rgba(0,0,0,0.1);
+}
+
+/* Footer subtle */
+.site-footer { border-top: 1px solid rgba(0,0,0,0.06); }
+
+/* Home sections spacing */
+.page-content h3 { margin-top: 1.4rem; }
+
+/* Auto dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+  body { background: #0e0f12; color: #e6e7ea; }
+  a { color: #8ab4ff; }
+  .site-header, .site-footer {
+    background: rgba(14,15,18,0.75);
+    border-color: rgba(255,255,255,0.08);
+  }
+  .post-list > li:hover,
+  .page-content ul > li:hover { background: rgba(255,255,255,0.06); }
+  tbody tr:nth-child(odd) { background: rgba(255,255,255,0.04); }
+  .site-nav .page-link:hover { background: rgba(255,255,255,0.08); }
+  .site-nav .page-link[aria-current="page"],
+  .site-nav .page-link.active { background: rgba(255,255,255,0.12); }
+}
+
+/* Selected Publications */
+.pubs {
+  list-style: decimal;
+  padding-left: 1.2rem;
+}
+
+.pub-item {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 0.9rem 1rem;
+  align-items: start;
+  margin: 1rem 0 1.2rem;
+}
+
+.pub-thumb {
+  width: 110px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.06);
+}
+
+.pub-title { font-weight: 600; margin: 0 0 0.2rem; }
+.pub-authors { opacity: 0.9; }
+.pub-venue { opacity: 0.8; font-style: italic; margin-top: 0.2rem; }
+.pub-links a { margin-right: 0.6rem; }
+
+@media (max-width: 640px) {
+  .pub-item { grid-template-columns: 1fr; }
+  .pub-thumb { width: 100%; height: 160px; }
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-thumb { background: rgba(255,255,255,0.08); }
+}
+
+

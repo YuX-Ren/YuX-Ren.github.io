@@ -1,26 +1,60 @@
 ---
-layout: home
+layout: page
 title: "Hi, it's YuX Ren"
 ---
 
-欢迎来到我的个人主页！这里包含我的研究方向、项目、论文、博客与简历链接。
+# Hi, it's YuX Ren
+
+Hello! I’m Yuxuan Ren, an AI for Science researcher focusing on generative models for molecular systems, long‑range interaction modeling, and Cryo‑ET inverse problems. I received my B.S. in Chemistry from USTC in 2024, and have worked with BAAI and MSR Asia.
+
+Email: you@example.com · GitHub: [link]() · Scholar: [link]() · CV: [PDF]()
 
 ---
 
-### News
+## News
 
-| 日期 | 事件 |
-| --- | --- |
-| 2025-09-10 | 个人主页上线。 |
+ 2025‑08     Cryo‑ET preprint updated. 
+
+ 2024‑12     Long‑range interaction modeling preprint online. 
 
 ---
 
-### 快速入口
+## Selected Publications
 
-- [About 关于我](/about/)
-- [Blog 博客](/blog/)
-- [Projects 项目](/projects/)
-- [Publications 论文](/publications/)
-- [CV 简历](/cv/)
+<ol class="pubs">
+  <li class="pub-item">
+    <img class="pub-thumb" src="/assets/img/placeholder.svg" alt="thumbnail">
+    <div class="pub-meta">
+      <div class="pub-title">Physical Consistency Bridges Heterogeneous Data in Molecular Multi‑Task Learning</div>
+      <div class="pub-authors"><em>Yuxuan Ren</em>, et al.</div>
+      <div class="pub-venue"><em>NeurIPS</em>, 2024</div>
+      <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">Project</a></div>
+    </div>
+  </li>
+  <li class="pub-item">
+    <img class="pub-thumb" src="/assets/img/placeholder.svg" alt="thumbnail">
+    <div class="pub-meta">
+      <div class="pub-title">Neural P3M: Long‑Range Interaction Modeling Enhancer for Geometric GNNs</div>
+      <div class="pub-authors"><em>Yuxuan Ren</em>, et al.</div>
+      <div class="pub-venue"><em>NeurIPS</em>, 2024</div>
+      <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a></div>
+    </div>
+  </li>
+  <li class="pub-item">
+    <img class="pub-thumb" src="/assets/img/placeholder.svg" alt="thumbnail">
+    <div class="pub-meta">
+      <div class="pub-title">CryoGEN: Energy‑based Cryo‑ET Reconstruction</div>
+      <div class="pub-authors"><em>Yuxuan Ren</em>, et al.</div>
+      <div class="pub-venue"><em>ICLR</em>, 2025 (preprint)</div>
+      <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">Project</a></div>
+    </div>
+  </li>
+</ol>
 
-如需参考的风格与结构，请见我参考的网站设计思路（导航、新闻、论文展示等）。 
+---
+
+## Projects
+
+- SFM: Physics‑consistent molecular MTL base model. [Code]() · [Paper]()
+- Neural P3M for GNNs. [Code]() · [Paper]()
+- OpenCryo / CryoGEN. [Project]() · [Paper]()
