@@ -1,13 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-redirect-from'
-  gem 'jemoji'
-  gem 'webrick', '~> 1.8'
-end
+# Lock to GitHub Pages environment for local dev parity
+# See https://pages.github.com/versions/
+gem "github-pages", group: :jekyll_plugins
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+gem "webrick", "~> 1.8" 
