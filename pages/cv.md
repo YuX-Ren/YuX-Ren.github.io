@@ -4,11 +4,12 @@ title: CV
 permalink: /cv/
 ---
 
-<p>正在跳转到 CV… 如果未自动跳转，请点击
-<a href="/assets/cv/YuxuanRen_CV_0422.pdf">这里</a>。</p>
-
 <script>
-  window.location.replace('/assets/cv/YuxuanRen_CV_0422.pdf');
+  (function() {
+    var pdfUrl = '/assets/cv/YuxuanRen_CV_0422.pdf';
+    var newWindow = window.open(pdfUrl, '_blank', 'noopener,noreferrer');
+    if (!newWindow) {
+      window.location.replace(pdfUrl);
+    }
+  })();
 </script>
-<meta http-equiv="refresh" content="0; url=/assets/cv/YuxuanRen_CV_0422.pdf">
-<link rel="canonical" href="/assets/cv/YuxuanRen_CV_0422.pdf">
