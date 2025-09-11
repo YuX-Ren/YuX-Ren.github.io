@@ -1,15 +1,6 @@
 ---
-layout: page
-title: CV
+redirect_to:
+  - /assets/cv/YuxuanRen_CV_0422.pdf
 permalink: /cv/
+title: CV
 ---
-
-<script>
-  (function() {
-    var pdfUrl = '/assets/cv/YuxuanRen_CV_0422.pdf';
-    var newWindow = window.open(pdfUrl, '_blank', 'noopener,noreferrer');
-    if (!newWindow) {
-      window.location.replace(pdfUrl);
-    }
-  })();
-</script>

@@ -53,9 +53,9 @@ I'm now a Researcher at Beijing Academy of Artificial Intelligence (BAAI) superv
 </ol>
 
 ---
-
+<!-- 
 ## Projects
 
 - SFM: Physics‑consistent molecular MTL base model. [Code]() · [Paper]()
 - Neural P3M for GNNs. [Code]() · [Paper]()
-- OpenCryo / CryoGEN. [Project]() · [Paper]()
+- OpenCryo / CryoGEN. [Project]() · [Paper]() -->

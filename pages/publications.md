@@ -4,16 +4,33 @@ title: Publications
 permalink: /publications/
 ---
 
-按时间倒序列出论文（示例条目基于参考站点的结构）：
 
-1. 论文标题 A  
-   作者列表  
-   会议/期刊, 年份  
-   [Abs](#) [PDF](#) [BibTeX](#)
-
-2. 论文标题 B  
-   作者列表  
-   会议/期刊, 年份  
-   [Abs](#) [PDF](#) [BibTeX](#)
-
-后续可将条目迁移至 `_data/publications.yml`，并使用模板循环渲染，便于维护。 
+<ol class="pubs">
+  <li class="pub-item">
+    <img class="pub-thumb" src="/assets/img/articles/Physics_MTL.png" alt="thumbnail">
+    <div class="pub-meta">
+      <div class="pub-title">Physical Consistency Bridges Heterogeneous Data in Molecular Multi‑Task Learning</div>
+      <div class="pub-authors"><em>Yuxuan Ren†, Dihan Zheng†, Chang Liu*, Peiran Jin, Yu Shi, Lin Huang, Jiyan He, Shengjie Luo, Tao Qin, Tie-Yan Liu.</em>, et al.</div>
+      <div class="pub-venue"><em>NeurIPS</em>, 2024</div>
+      <div class="pub-links"><a href="[#](https://neurips.cc/virtual/2024/poster/95877)">PDF</a></div>
+    </div>
+  </li>
+  <li class="pub-item">
+    <img class="pub-thumb" src="/assets/img/articles/Neural_P3M.png" alt="thumbnail">
+    <div class="pub-meta">
+      <div class="pub-title">Neural P3M: Long‑Range Interaction Modeling Enhancer for Geometric GNNs</div>
+      <div class="pub-authors"><em>Yusong Wang†,  Chaoran Cheng†,  Shaoning Li†,  Yuxuan Ren,  Bin Shao,  Ge Liu,  Pheng-Ann Heng,  Nanning Zheng</em>.</div>
+      <div class="pub-venue"><em>NeurIPS</em>, 2024</div>
+      <div class="pub-links"><a href="[#](https://neurips.cc/virtual/2024/poster/93679)">PDF</a></div>
+    </div>
+  </li>
+  <li class="pub-item">
+    <img class="pub-thumb" src="/assets/img/articles/Cryo_GEN.png" alt="thumbnail">
+    <div class="pub-meta">
+      <div class="pub-title">CryoGEN: Energy‑based Cryo‑ET Reconstruction</div>
+      <div class="pub-authors"><em>Yunfei Teng†, Yuxuan Ren†, Kai Chen, Xi Chen, Zhaoming Chen, Qiwei Ye</em>.</div>
+      <div class="pub-venue"><em>ICLR</em>, 2025 (preprint)</div>
+      <div class="pub-links"><a href="[#](https://iclr.cc/virtual/2025/poster/27980)">PDF</a></div>
+    </div>
+  </li>
+</ol>

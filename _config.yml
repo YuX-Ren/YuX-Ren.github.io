@@ -1,5 +1,5 @@
-title: YuX Ren
-email: your.email@example.com
+title: Home
+email: yuxuanren@ustc.edu
 url: https://yux-ren.github.io
 baseurl: ""
 
@@ -20,7 +20,7 @@ timezone: Asia/Shanghai
 # Navigation: which pages appear in the header
 header_pages:
   - pages/blog.md
-  - pages/projects.md
+  # - pages/projects.md
   - pages/publications.md
   - pages/cv.md
 

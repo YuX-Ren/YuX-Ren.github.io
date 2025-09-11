@@ -121,6 +121,30 @@ pre, code {
   padding-left: 1.2rem;
 }
 
+/* Footer socials */
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 1.2rem 0 0.6rem;
+}
+
+.footer-social .social-icon {
+  display: inline-flex;
+  width: 56px;
+  height: 56px;
+  color: #111;
+}
+
+.footer-note {
+  text-align: center;
+  margin: 0.6rem 0 1.2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-social .social-icon { color: #e6e7ea; }
+}
+
 .pub-item {
   display: grid;
   grid-template-columns: 110px 1fr;

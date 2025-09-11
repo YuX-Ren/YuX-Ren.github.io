@@ -1,4 +1,18 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate icon" href="/favicon.ico">
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    try {
+      var links = document.querySelectorAll('.site-header .site-nav .page-link');
+      links.forEach(function (a) {
+        if (a.getAttribute('href') === '/cv/' || /\/cv\/?$/.test(a.getAttribute('href') || '')) {
+          a.setAttribute('href', '/assets/cv/YuxuanRen_CV_0422.pdf');
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener noreferrer');
+        }
+      });
+    } catch (e) {}
+  });
+</script>
 
 
