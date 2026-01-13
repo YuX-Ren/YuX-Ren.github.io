@@ -33,4 +33,22 @@ permalink: /publications/
       <div class="pub-links"><a href="[#](https://iclr.cc/virtual/2025/poster/27980)">PDF</a></div>
     </div>
   </li>
+  <li class="pub-item">
+    <img class="pub-thumb" src="/assets/img/articles/EPO.pdf" alt="thumbnail">
+    <div class="pub-meta">
+      <div class="pub-title">EPO: Diverse and Realistic Protein Ensemble Generation via Energy Preference Optimization</div>
+      <div class="pub-authors"><em>Yuancheng Sun, Yuxuan Ren, Zhaoming Chen, Xu Han, Kang Liu, Qiwei Ye</em>.</div>
+      <div class="pub-venue"><em>AAAI</em>, 2026 (preprint)</div>
+      <div class="pub-links"><a href="[#](https://arxiv.org/pdf/2511.10165)">PDF</a></div>
+    </div>
+  </li>
+  <li class="pub-item">
+    <img class="pub-thumb" src="/assets/img/articles/latent_backmap.pdf" alt="thumbnail">
+    <div class="pub-meta">
+      <div class="pub-title">Constraint Decoupled Latent Diffusion for Protein Backmapping</div>
+      <div class="pub-authors"><em>Xu Han, Yuancheng Sun, Kai Chen, Yuxuan Ren, Kang Liu, Qiwei Ye</em>.</div>
+      <div class="pub-venue"><em>JCTC</em></div>
+      <div class="pub-links"><a href="[#](https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.5c01364?ref=article_openPDF)">PDF</a></div>
+    </div>
+  </li>
 </ol>
