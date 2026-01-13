@@ -34,7 +34,7 @@ permalink: /publications/
     </div>
   </li>
   <li class="pub-item">
-    <img class="pub-thumb" src="/assets/img/articles/EPO.pdf" alt="thumbnail">
+    <img class="pub-thumb" src="/assets/img/articles/EPO.png" alt="thumbnail">
     <div class="pub-meta">
       <div class="pub-title">EPO: Diverse and Realistic Protein Ensemble Generation via Energy Preference Optimization</div>
       <div class="pub-authors"><em>Yuancheng Sun, Yuxuan Ren, Zhaoming Chen, Xu Han, Kang Liu, Qiwei Ye</em>.</div>
@@ -43,7 +43,7 @@ permalink: /publications/
     </div>
   </li>
   <li class="pub-item">
-    <img class="pub-thumb" src="/assets/img/articles/latent_backmap.pdf" alt="thumbnail">
+    <img class="pub-thumb" src="/assets/img/articles/latent_backmap.png" alt="thumbnail">
     <div class="pub-meta">
       <div class="pub-title">Constraint Decoupled Latent Diffusion for Protein Backmapping</div>
       <div class="pub-authors"><em>Xu Han, Yuancheng Sun, Kai Chen, Yuxuan Ren, Kang Liu, Qiwei Ye</em>.</div>
