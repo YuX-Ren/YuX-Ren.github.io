@@ -7,7 +7,10 @@ body_class: home
   <div class="wrap hero__grid">
     <div class="hero__text">
       <h1>One model for molecules, crystals and proteins.</h1>
-      <p class="hero__lede">I'm Yuxuan Ren, a Ph.D. student at the National University of Singapore. I build generative models and molecular languages for science.</p>
+      <div class="hero__intro">
+        <img class="hero__portrait" src="{{ '/assets/img/portrait-pixel.png' | relative_url }}" alt="Pixel-art portrait of Yuxuan Ren" width="112" height="112">
+        <p class="hero__lede">I'm Yuxuan Ren, a Ph.D. student at the National University of Singapore. I build generative models and molecular languages for science.</p>
+      </div>
     </div>
     <figure class="hero__figure">
       <canvas id="flow" width="640" height="520" role="img" aria-label="Animation: a cloud of random points flows into a caffeine molecule, then a salt crystal, then a protein helix."></canvas>
