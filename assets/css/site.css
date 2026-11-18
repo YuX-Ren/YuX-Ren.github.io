@@ -80,7 +80,7 @@ a:hover { text-decoration-color: currentColor; }
 .hero__grid { display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr); gap: clamp(1rem, 4vw, 3.5rem); align-items: end; padding-block: clamp(1.5rem, 4vw, 3rem) clamp(2.5rem, 6vw, 4.5rem); }
 .hero h1 { font-size: var(--step-3); font-weight: 400; line-height: 1.06; letter-spacing: -0.015em; text-wrap: balance; }
 .hero__intro { display: flex; align-items: flex-end; gap: 1.1rem; margin-top: 1.6rem; }
-.hero__portrait { flex: none; width: 120px; height: 120px; image-rendering: pixelated; border-bottom: 1px solid rgba(233, 238, 240, 0.28); }
+.hero__portrait { flex: none; width: 144px; height: 144px; image-rendering: pixelated; border-bottom: 1px solid rgba(233, 238, 240, 0.28); }
 .hero__lede { max-width: 30ch; font-family: var(--sans); font-size: var(--step-0); line-height: 1.5; color: #C4D4DE; }
 .hero__figure canvas { width: 100%; height: auto; aspect-ratio: 640 / 520; display: block; }
 .hero__figure figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1.5rem; margin-top: 0.4rem; padding-top: 0.7rem; border-top: 1px solid rgba(233, 238, 240, 0.28); font-family: var(--sans); font-size: var(--step--1); color: #C4D4DE; }
@@ -149,7 +149,7 @@ h2 { font-size: var(--step-2); font-weight: 400; line-height: 1.15; letter-spaci
 
 @media (max-width: 760px) {
   .hero__grid { grid-template-columns: 1fr; }
-  .hero__portrait { width: 80px; height: 80px; }
+  .hero__portrait { width: 96px; height: 96px; }
   .hero__figure { order: -1; margin-inline: calc(var(--gutter) * -0.5); }
   .about { grid-template-columns: 1fr; }
   .pub, .news li, .year, .posts li { grid-template-columns: 1fr; gap: 0.15rem; }
