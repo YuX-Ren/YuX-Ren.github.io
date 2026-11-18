@@ -1,49 +1,29 @@
-title: Home
+title: Yuxuan Ren
+author: Yuxuan Ren
 email: yuxuan.ren@nus.edu.sg
+description: >-
+  Yuxuan Ren is a Ph.D. student at the National University of Singapore working on
+  generative models and molecular languages for AI for Science.
 url: https://yux-ren.github.io
 baseurl: ""
 
-# Use the default GitHub Pages theme for stability; easy to extend
-theme: minima
-
-# Plugins supported by GitHub Pages
+# The site ships its own layouts in _layouts/ and does not use a gem theme.
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
 
-# Language & timezone
-lang: zh-CN
-timezone: Asia/Shanghai
+lang: en
+timezone: Asia/Singapore
 
-# Navigation: which pages appear in the header
-header_pages:
-  - pages/blog.md
-  # - pages/projects.md
-  - pages/publications.md
-  - pages/cv.md
+# Shown in the header, the footer and the /cv/ redirect.
+cv_pdf: /assets/cv/YuxuanRen_CV_1118.pdf
+github_username: YuX-Ren
+# scholar_url: https://scholar.google.com/citations?user=XXXX   # uncomment to show a Google Scholar link
 
-# Blog settings
 show_excerpts: true
-
-# Social (fill in as needed)
-author: YuX Ren
-minima:
-  social_links:
-    github: YuX-Ren
-    linkedin: your-linkedin-username
-  skin: auto
-
-include:
-  - _includes/head-custom.html
-
-# Collections (extend later if needed)
-collections:
-  posts:
-    output: true
-
-# Sass (optional customization later)
-sass:
-  sass_dir: _sass
-  style: compressed 
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

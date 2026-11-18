@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="preload" href="{{ '/assets/fonts/stix-two-text-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap site-header__row">
+      <a class="site-name" href="{{ '/' | relative_url }}">Yuxuan Ren</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a>
+        <a href="{{ site.cv_pdf | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+{{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__row">
+      <p>Email is the best way to reach me: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <ul class="site-footer__links">
+        <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+        {% if site.scholar_url %}<li><a href="{{ site.scholar_url }}">Google Scholar</a></li>{% endif %}
+        <li><a href="{{ site.cv_pdf | relative_url }}">CV (PDF)</a></li>
+        <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

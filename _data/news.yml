@@ -1,0 +1,13 @@
+# Newest first. `text` may contain HTML links.
+- date: "Oct 2026"
+  text: '<a href="https://arxiv.org/abs/2610.18438">STAMP</a>, a topology-aware molecular language, is on arXiv.'
+- date: "Sep 2026"
+  text: '<a href="https://arxiv.org/abs/2609.13356">ZGCM-1</a>, a fully open 7B foundation model for math and agentic search, is released.'
+- date: "Jul 2026"
+  text: '<a href="https://arxiv.org/abs/2607.12380">SinAE</a> and <a href="https://arxiv.org/abs/2607.20935">Chemical Chain-of-Thought</a> are on arXiv.'
+- date: "Nov 2025"
+  text: 'EPO is accepted at AAAI 2026.'
+- date: "Mar 2025"
+  text: 'CryoGEN is accepted at ICLR 2025.'
+- date: "Sep 2024"
+  text: 'Physical Consistency MTL and Neural P3M are accepted at NeurIPS 2024.'
