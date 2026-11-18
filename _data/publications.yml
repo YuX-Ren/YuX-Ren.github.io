@@ -1,0 +1,77 @@
+# Newest first. `selected: true` puts a paper on the home page.
+# Optional `image:` (e.g. /assets/img/articles/EPO.png) shows a figure next to the entry.
+- title: "STAMP as a Topology-Aware Molecular Language for Fragment-Level Learning and Editing"
+  authors: "Yuxuan Ren, Jiatong Li, Ziqiao Meng, Yatao Bian"
+  venue: "arXiv preprint"
+  year: 2026
+  selected: true
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2610.18438" }
+    - { name: Code, url: "https://github.com/YuX-Ren/STAMP_V1" }
+
+- title: "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search"
+  authors: "ZGCM Team (including Yuxuan Ren)"
+  venue: "arXiv preprint"
+  year: 2026
+  selected: true
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2609.13356" }
+
+- title: "Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad"
+  authors: "Jiatong Li, Yuxuan Ren, Weida Wang, Xiao-Yong Wei, Yatao Bian"
+  venue: "arXiv preprint"
+  year: 2026
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2607.20935" }
+
+- title: "SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems"
+  authors: "Yuxuan Ren, Fan Yang, Jianhua Yao, Yatao Bian"
+  venue: "arXiv preprint"
+  year: 2026
+  selected: true
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2607.12380" }
+    - { name: Code, url: "https://github.com/BlueWhaleLab/SinAE" }
+
+- title: "EPO: Diverse and Realistic Protein Ensemble Generation via Energy Preference Optimization"
+  authors: "Yuancheng Sun, Yuxuan Ren, Zhaoming Chen, Xu Han, Kang Liu, Qiwei Ye"
+  venue: "AAAI"
+  year: 2026
+  selected: true
+  image: /assets/img/articles/EPO.png
+  links:
+    - { name: Paper, url: "https://ojs.aaai.org/index.php/AAAI/article/view/37076" }
+
+- title: "Constraint Decoupled Latent Diffusion for Protein Backmapping"
+  authors: "Xu Han, Yuancheng Sun, Kai Chen, Yuxuan Ren, Kang Liu, Qiwei Ye"
+  venue: "Journal of Chemical Theory and Computation"
+  year: 2025
+  image: /assets/img/articles/latent_backmap.png
+  links:
+    - { name: Paper, url: "https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.5c01364?ref=article_openPDF" }
+
+- title: "CryoGEN: Energy-based Cryo-ET Reconstruction"
+  authors: "Yunfei Teng†, Yuxuan Ren†, Kai Chen, Xi Chen, Zhaoming Chen, Qiwei Ye"
+  venue: "ICLR"
+  year: 2025
+  selected: true
+  image: /assets/img/articles/Cryo_GEN.png
+  links:
+    - { name: Paper, url: "https://iclr.cc/virtual/2025/poster/27980" }
+
+- title: "Physical Consistency Bridges Heterogeneous Data in Molecular Multi-Task Learning"
+  authors: "Yuxuan Ren†, Dihan Zheng†, Chang Liu, Peiran Jin, Yu Shi, Lin Huang, Jiyan He, Shengjie Luo, Tao Qin, Tie-Yan Liu"
+  venue: "NeurIPS"
+  year: 2024
+  selected: true
+  image: /assets/img/articles/Physics_MTL.png
+  links:
+    - { name: Paper, url: "https://neurips.cc/virtual/2024/poster/95877" }
+
+- title: "Neural P3M: Long-Range Interaction Modeling Enhancer for Geometric GNNs"
+  authors: "Yusong Wang†, Chaoran Cheng†, Shaoning Li†, Yuxuan Ren, Bin Shao, Ge Liu, Pheng-Ann Heng, Nanning Zheng"
+  venue: "NeurIPS"
+  year: 2024
+  image: /assets/img/articles/Neural_P3M.png
+  links:
+    - { name: Paper, url: "https://neurips.cc/virtual/2024/poster/93679" }
